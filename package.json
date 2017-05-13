@@ -1,0 +1,27 @@
+{
+  "name": "durable_wealth_management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lane-faison/DWM.git"
+  },
+  "author": "Christopher Lane Faison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lane-faison/DWM/issues"
+  },
+  "homepage": "https://github.com/lane-faison/DWM#readme",
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-ui-bootstrap": "^2.5.0",
+    "angular-ui-router": "1.0.0-beta.3",
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.18.5"
+  }
+}
