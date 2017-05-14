@@ -1,3 +1,16 @@
 * {
   font-family: 'Cantarell', sans-serif;
 }
+
+.branded {
+  color: #012e63;
+  font-style: normal;
+  font-weight: bold;
+}
+
+body {
+  background: url("/assets/images/things/boat.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

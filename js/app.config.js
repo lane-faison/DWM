@@ -13,5 +13,10 @@
         url: '/',
         component: 'home',
       })
+      .state({
+        name: 'contact',
+        url: '/contact',
+        component: 'contact',
+      })
   }
 }())
