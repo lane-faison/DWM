@@ -16,15 +16,8 @@
 
 .nav-large > .layer-top > .contact-info {
   color: #012e63;
-  font-size: 18px;
+  font-size: 16px;
   margin-right: 50px;
-}
-
-@media screen and (max-width: 720px) {
-  .nav-large > .layer-top > .contact-info {
-    font-size: 12px;
-    margin-right: 10px;
-  }
 }
 
 .nav-large > .layer-top > .contact-info > ul {
@@ -50,15 +43,11 @@
   height: 100px;
 }
 
-@media screen and (max-width: 720px) {
-  .nav-large > .layer-top > .brand-logo > img {
-    height: 65px;
-  }
-}
-
 .nav-large > .layer-bottom {
   background: #BA8748;
   border-bottom: 5px solid #012e63;
+  /*background: #012e63;
+  border-bottom: 5px solid #BA8748;*/
   height: 50px;
   display: flex;
   justify-content: center;
@@ -71,12 +60,6 @@
   height: 45px;
   margin-bottom: 0;
   padding-left: 0;
-}
-
-@media screen and (max-width: 1150px) {
-  .nav-large > .layer-bottom > ul {
-    display: none;
-  }
 }
 
 .nav-large > .layer-bottom > ul > li {
@@ -95,4 +78,74 @@
 
 .nav-large > .layer-bottom > ul > .active {
   background: #012e63;
+}
+
+.nav-large > .small-menu {
+  justify-content: flex-start;
+  padding-left: 50px;
+}
+
+.nav-large > .small-menu > ul > .hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+.nav-large > .small-menu > ul > .hamburger > div {
+  width: 35px;
+  height: 3px;
+  background: #fff;
+  margin: 3px 0;
+}
+
+/********* DROPDOWN MENU **********/
+
+.nav-large > .dropdown-nav {
+  background: #012e63;
+  color: #fff;
+  width: 250px;
+  border-bottom: 5px solid #fff;
+  border-right: 5px solid #fff;
+}
+
+.nav-large > .dropdown-nav > ul {
+  list-style: none;
+}
+
+.nav-large > .dropdown-nav > ul > li {
+  padding: 5px 0;
+}
+
+.nav-large > .dropdown-nav > ul > li:hover {
+  text-decoration: underline;
+}
+
+/********* RESPONSIVE DESIGN **********/
+
+@media screen and (max-width: 720px) {
+  .nav-large > .layer-top > .contact-info {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+
+  .nav-large > .layer-top > .brand-logo > img {
+    height: 65px;
+  }
+}
+
+@media screen and (max-width: 1151px) {
+  .nav-large > .large-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1151px) {
+  .nav-large > .small-menu {
+    display: none;
+  }
+  .nav-large > .dropdown-nav {
+    display: none;
+  }
 }

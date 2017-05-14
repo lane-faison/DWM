@@ -2,6 +2,10 @@
   font-family: 'Cantarell', sans-serif;
 }
 
+html {
+  cursor: default;
+}
+
 .branded {
   color: #012e63;
   font-style: normal;

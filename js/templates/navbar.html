@@ -5,15 +5,15 @@
     </div>
     <div class="contact-info">
       <ul>
-        <li>6000 Greenwood Plaza Blvd., Ste. 100</li>
-        <li>Greenwood Village, CO 80111</li>
+        <li>6000&nbsp;Greenwood&nbsp;Plaza&nbsp;Blvd., Ste.&nbsp;100</li>
+        <li>Greenwood&nbsp;Village,&nbsp;CO&nbsp;80111</li>
         <div class="divider"></div>
         <li>Office:&nbsp;&nbsp;303.243.5720</li>
         <li>Cell:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;303.250.0536</li>
       </ul>
     </div>
   </div>
-  <div class="layer-bottom">
+  <div class="layer-bottom large-menu">
     <ul>
       <li ui-sref="home" ng-class="{ active: $ctrl.isActive('/')}">Home</li>
       <li ui-sref="story" ng-class="{ active: $ctrl.isActive('/story')}">Our Story</li>
@@ -22,6 +22,34 @@
       <li ui-sref="press" ng-class="{ active: $ctrl.isActive('/press')}">The Durable Press</li>
       <li ui-sref="newsletter" ng-class="{ active: $ctrl.isActive('/newsletter')}">Market Peeks Newsletter</li>
       <li ui-sref="contact" ng-class="{ active: $ctrl.isActive('/contact')}">Contact</li>
+    </ul>
+  </div>
+  <div class="layer-bottom small-menu">
+    <ul ng-click="dropdownIsVisible = !dropdownIsVisible">
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <li>Menu</li>
+      <!-- <li ui-sref="home" ng-class="{ active: $ctrl.isActive('/')}">Home</li>
+      <li ui-sref="story" ng-class="{ active: $ctrl.isActive('/story')}">Our Story</li>
+      <li ui-sref="team" ng-class="{ active: $ctrl.isActive('/team')}">Our Team</li>
+      <li ui-sref="services" ng-class="{ active: $ctrl.isActive('/services')}">Quality Services Offered</li>
+      <li ui-sref="press" ng-class="{ active: $ctrl.isActive('/press')}">The Durable Press</li>
+      <li ui-sref="newsletter" ng-class="{ active: $ctrl.isActive('/newsletter')}">Market Peeks Newsletter</li>
+      <li ui-sref="contact" ng-class="{ active: $ctrl.isActive('/contact')}">Contact</li> -->
+    </ul>
+  </div>
+  <div class="dropdown-nav" ng-show="dropdownIsVisible">
+    <ul>
+      <li>Home</li>
+      <li>Our Story</li>
+      <li>Our Team</li>
+      <li>Quality Services Offered</li>
+      <li>The Durable Press</li>
+      <li>Market Peeks Newsletter</li>
+      <li>Contact</li>
     </ul>
   </div>
 </div>
