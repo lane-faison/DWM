@@ -1,0 +1,77 @@
+.nav-large {
+  background: #fff;
+  width: 100%;
+  display: block;
+  height: 200px;
+
+}
+
+.nav-large > .layer-top {
+  border-bottom: 5px solid #002D62;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+
+.nav-large > .layer-top > .contact-info {
+  color: #002D62;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.nav-large > .layer-top > .contact-info > ul {
+  list-style: none;
+  text-align: right;
+}
+
+.nav-large > .layer-top > .contact-info > ul > .divider {
+  height: 1px;
+  width: 100%;
+  margin: 5px 0;
+  background: #eee;
+}
+
+.nav-large > .layer-top > .brand-logo {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-large > .layer-top > .brand-logo > img {
+  height: 100px;
+}
+
+.nav-large > .layer-bottom {
+  background: #BA8748;
+  border-bottom: 5px solid #002D62;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-large > .layer-bottom > ul {
+  display: flex;
+  align-content: center;
+  height: 45px;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.nav-large > .layer-bottom > ul > li {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Gentium Book Basic', serif;
+  /*border-right: 1px solid #002D62;*/
+}
+
+.active-section {
+  background: #002D62;
+}
