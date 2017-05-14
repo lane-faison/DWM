@@ -93,6 +93,6 @@
   /*border-right: 1px solid #012e63;*/
 }
 
-.active-section {
+.nav-large > .layer-bottom > ul > .active {
   background: #012e63;
 }

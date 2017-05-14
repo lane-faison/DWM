@@ -14,6 +14,31 @@
         component: 'home',
       })
       .state({
+        name: 'story',
+        url: '/story',
+        component: 'story',
+      })
+      .state({
+        name: 'team',
+        url: '/team',
+        component: 'team',
+      })
+      .state({
+        name: 'services',
+        url: '/services',
+        component: 'services',
+      })
+      .state({
+        name: 'press',
+        url: '/press',
+        component: 'press',
+      })
+      .state({
+        name: 'newsletter',
+        url: '/newsletter',
+        component: 'newsletter',
+      })
+      .state({
         name: 'contact',
         url: '/contact',
         component: 'contact',
