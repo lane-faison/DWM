@@ -22,7 +22,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 200px;
+  min-height: 120px;
+}
+
+.footer-block > .row > .col-xs-12, .col-sm-12, .col-md-4 > p {
+  margin-bottom: 0;
 }
 
 .footer-block > .bottom-row {
@@ -33,6 +37,7 @@
 
 .footer-block > .bottom-row > .footer-subtext > p {
   font-size: 12px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
@@ -43,5 +48,5 @@
 
 .footer-grey {
   color: #aaa;
-  font-size: 16px;
+  font-size: 12px;
 }

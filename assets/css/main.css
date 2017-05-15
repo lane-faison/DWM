@@ -12,9 +12,24 @@ html {
   font-weight: bold;
 }
 
+.branded2 {
+  color: #ba8748;
+  font-style: italic;
+}
+
 body {
   background: url("/assets/images/things/boat.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+main {
+  min-height: 700px;
+  padding-top: 190px;
+}
+
+.inline-link {
+  text-decoration: underline;
+  color: #0645AD;
 }

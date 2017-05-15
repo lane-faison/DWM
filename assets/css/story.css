@@ -1,0 +1,45 @@
+.story {
+  background: #fff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 20px;
+  border-top: 5px solid #012e63;
+  border-bottom: 5px solid #012e63;
+  text-align: left;
+}
+
+.story > p {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.story > .row {
+  width: 100%;
+  padding: 0 10%;
+}
+
+.story > .row > div {
+  margin-top: 50px;
+}
+
+.branded-statement {
+  margin: 40px 0;
+  color: #012e63;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.row > div > .video {
+  border: 5px solid 012e63;
+}
+
+.award-year {
+  color: #012e63;
+}
+
+.background-link {
+  text-decoration: underline;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 20%;
+}

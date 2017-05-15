@@ -4,6 +4,7 @@
   display: block;
   height: 200px;
   position: fixed;
+  z-index: 1000;
 }
 
 .nav-large > .layer-top {
