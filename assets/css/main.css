@@ -27,9 +27,23 @@ body {
 main {
   min-height: 700px;
   padding-top: 190px;
+  box-sizing: border-box;
 }
 
 .inline-link {
   text-decoration: underline;
   color: #0645AD;
+}
+
+.section-title {
+  color: #ba8748;
+  font-size: 32px;
+  font-style: italic;
+}
+
+.title-breaker {
+  height: 1px;
+  padding-left: 20%;
+  padding-right: 20%;
+  background: red;
 }
